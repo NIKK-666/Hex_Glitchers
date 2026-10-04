@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2
+pandas
+numpy
+torch
+torch_geometric
+xgboost
+shap
+scikit-learn
+geoip2        # optional, only if data2/GeoLite2-City.mmdb exists
